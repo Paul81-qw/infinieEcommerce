@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.navbar ul{
+    gap: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 30px;
+}
+.navbar ul .btn{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(166, 166, 243);
+    border-radius: 20px;
+    border: 20px;
+    text-decoration: #fff;
+}
+.part1{
+    gap: 2rem;
+    margin-top: 50px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.part1 p span{
+    color: rgb(250, 132, 152);
+}
+
+.part1 .text p{
+    font-size: 40px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.zone{
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zone input{
+    margin: 25px;
+}
+
+.zone input{
+    width: 400px;
+    height: 60px;
+}
+.zone button{
+    width: 80px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(166, 166, 243);
+    
+}
+
+.card button{
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(166, 166, 243); 
+}
+
+.model{
+    gap: 2rem;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.model .card-title,
+.card-text{
+    color: white;
+}
+
+.model .card-title{
+    color: yellow;
+    font-size: 15px;
+}
+
+.model .card-body button{
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(166, 166, 243);
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 850px){
+    .navbar,
+    .part1,
+    .zone,
+    .model{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 850px){
+    .navbar,
+    .part1,
+    .zone,
+    .model{
+        width: 100%;
+    }
+}
+
+@media only screen and  (min-width: 750px) and (max-width: 900px) {
+    .navbar,
+    .part1,
+    .zone,
+    .model{
+        width: 100%;
+    }
+}
+
+@media only screen and  (min-width: 900px) and (max-width: 1200px){
+    .navbar,
+    .part1,
+    .zone,
+    .model{
+        width: 100%;
+    }
+}
+
+@media only screen and  (min-width: 1200px) and (max-width: 1500px){
+    .navbar,
+    .part1,
+    .zone,
+    .model{
+        width: 100%;
+    }
+}
+
+/* styling for Small */
+/* 
+@media (max-width: 600px) {
+    .navbar ul{
+        gap: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        font-size: 20px;
+        font-weight: 100;
+        border-radius: 30px;
+    }
+    .navbar ul .btn{
+        width: 80px;
+        height: 60px;
+        background-color: rgb(166, 166, 243);
+        border-radius: 20px;
+        border: 20px;
+        text-decoration: #fff;
+    }
+    .part1{
+        gap: 2rem;
+        margin-top: 50px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .part1 p span{
+        color: rgb(250, 132, 152);
+    }
+    
+    .part1 .text p{
+        font-size: 40px;
+        font-weight: 100;
+        color: #fff;
+    }
+    
+    .zone{
+        margin: 10px;
+        gap: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .zone input{
+        width: 400px;
+        height: 60px;
+    }
+    .zone button{
+        width: 80px;
+        height: 60px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(166, 166, 243);
+        
+    }
+    
+    .model{
+        gap: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+} */
